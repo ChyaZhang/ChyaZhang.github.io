@@ -79,7 +79,7 @@
               </a>
             </td>
             <td width="45%">
-              <img src="images/CV_me1.jpg" width="80%">
+              <img src="images/me.png" width="80%">
             </td>
           </tr>
           </table>
@@ -90,9 +90,8 @@
             <td width="100%" valign="middle">
               <heading>About me</heading>
               <br>
-                <p class="light">Hi! My name is Bo Li. I am a third-year Master's student at <a href="https://english.bjut.edu.cn/">Beijing University of Technology</a>, where I am grateful to be advised by Prof. <a href="https://yanzhao.bjut.edu.cn/info/1434/11431.htm">Baocai Yin</a> and Prof.<a href="https://yanzhao.bjut.edu.cn/info/1434/11510.htm"> Yong Zhang</a>. 
-                  During this period, I interned for one year under the guidance of Prof. <a href="http://www.wchscu.cn/public/department/yzyz/detail/53555.html">Bu Hong</a> at <a href="http://www.wchscu.cn/Home.html">West China Hospital</a>, published several papers and obtained several patents.
-                  Currently, I am also a research intern in <a href="https://qsong-github.github.io/SongLab/">Qianqian Song</a> Team at <a href="https://www.ufl.edu/">University of Florida</a>, where we develop state-of-the-art spatial transcriptomics algorithms based on artificial intelligence.
+                <p class="light">Hi! My name is Chengyang Zhang. I am a second-year Master's student at <a href="https://english.bjut.edu.cn/">Beijing University of Technology</a>, where I am grateful to be advised by Prof. <a href="https://yanzhao.bjut.edu.cn/info/1434/11431.htm">Baocai Yin</a> and Prof.<a href="https://yanzhao.bjut.edu.cn/info/1434/11510.htm"> Yong Zhang</a>. 
+                  During this period, I interned for one year under the guidance of Prof. <a href="http://www.wchscu.cn/public/department/yzyz/detail/53555.html">Bu Hong</a> at <a href="http://www.wchscu.cn/Home.html">West China Hospital</a>, published one paper and obtained several patents.
                 </p>
             </td>
           </tr>
@@ -106,8 +105,8 @@
               <td width="100%" valign="middle">
                 <heading>Research Interests</heading><br>
                   <p>
-                    I am broadly interested in the intersection area of <strong>Biomedical image analysis</strong>, <strong>Bioinformatics</strong>, and <strong>Graph Neural Network</strong>. 
-                    My current research focuses on gene expression prediction and single-cell spatial transcriptomics. These include:
+                    I am broadly interested in the intersection area of <strong>Counting technologies</strong>, <strong>Generative Models</strong>, and <strong>Graph Neural Networks</strong>. 
+                    My current research focuses on medical image analysis and applications of generative models within the traffic domain. These include:
                   </p>
                   <div class="container">
                     <img src="images/icons/learn.svg">
@@ -117,16 +116,9 @@
                   </div>
                   <br>
                   <div class="container">
-                    <img src="images/icons/learn3.svg">
-                    <div class="text">
-                        <span><strong>Single-cell Spatial Transcriptomics</strong>: Using style transfer models to integrate scRNA data and spatial transcriptomics data to impute gene expression in single-cell RNA sequencing data.
-                    </div>
-                  </div>
-                  <br>
-                  <div class="container">
                     <img src="images/icons/learn4.svg">
                     <div class="text">
-                        <span><strong>Gene Expression Prediction</strong>: Designing high performance deep learning algorithms to predict gene expression from histology images.
+                        <span><strong>Traffic generation with diffusion models</strong>: Designing high-performance diffusion models to generate traffic situations under the influence of abnormal events.
                     </div>
                   </div>
               </td>
@@ -143,10 +135,54 @@
               </td>
               <td width="70%" valign="right">
                 <div align="right">
-                  (see also <a href="https://scholar.google.com/citations?hl=zh-CN&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>)
+                  (All publications see <a href="https://scholar.google.com/citations?user=v5hefysAAAAJ&hl=zh-CN">Google Scholar</a>)
                 </div>
               </td>
             </tr>
+
+             <tr>
+              <td width="30%">
+                <img src="images/DDConv.png" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://ieeexplore.ieee.org/document/10310092"><b>Difference-Deformable Convolution with Pseudo Scale Instance Map for Cell Localization</b></a>
+                </div>
+                <div class="authors">
+                    <strong>Chengyang Zhang</strong>, Jie Chen, Bo Li, Min Feng, Yongquan Yang, Qikui Zhu, Hong Bu
+                </div>
+                <div class="venue">
+                   <i>Journal of <b>Biomedical and Health Informatics</b></i>, 2024
+                </div>
+                <div class="tags">
+                  <a href="https://github.com/ChyaZhang/DDConv-PSI">Code</a>
+                </div>
+                <div align="justify" class="tldr-text">
+                  This paper introduces a novel gradient-aware and shape-adaptive Difference-Deformable Convolution (DDConv), which enhances the model's robustness to color by leveraging gradient information while adaptively adjusting the shape of the convolutional kernel to tackle the substantial variability in cell morphology. Besides, this paper proposes the Pseudo-Scale Instance (PSI) map, which can adaptively provide the corresponding scale information for each cell to realize accurate supervision.
+              </td>
+            </tr>
+
+             <tr>
+              <td width="30%">
+                <img src="images/CrowdGraph.png" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3638774"><b>CrowdGraph: Weakly supervised Crowd Counting via Pure Graph Neural Network</b></a>
+                </div>
+                <div class="authors">
+                    <strong>Chengyang Zhang</strong>, Yong Zhang, Bo Li, Xinglin Piao, Baocai Yin
+                </div>
+                <div class="venue">
+                   <i>ACM Transactions on <b>Multimedia Computing, Communications, and Applications</b></i>, 2024
+                </div>
+                </div>
+                <div align="justify" class="tldr-text">
+                  This paper proposes a new graph-based crowd counting method named CrowdGraph to solve the problem of uneven distribution of crowd density, which reinterprets the weakly supervised crowd counting problem from a graph-to-count perspective.
+                </div>
+              </td>
+            </tr>
+            
             <tr>
               <td width="30%">
                 <img src="images/MHFAN.png" width=250px>
@@ -156,7 +192,7 @@
                   <a href="papers/MHFAN.pdf"><b>Multi-scale hypergraph-based feature alignment network for cell localization</b></a>
                 </div>
                 <div class="authors">
-                    <strong>Bo Li</strong>, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, and Baocai Yin
+                    Bo Li, Yong Zhang, <strong>Chengyang Zhang</strong>, Xinglin Piao, Yongli Hu, and Baocai Yin
                 </div>
                 <div class="venue">
                    <i>Journal of <b>Pattern Recognition</b></i>, 2024
@@ -170,52 +206,6 @@
                 </div>
               </td>
             </tr>
-            <tr>
-              <td width="30%">
-                <img src="images/EDT.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="papers/EDT.pdf"><b>Exponential distance transform maps for cell localization</b></a>
-                </div>
-                <div class="authors">
-                    <strong>Bo Li</strong>, Jie Chen, Hang Yi, Min Feng, Yongquan Yang, Qikui Zhu, and Hong Bu
-                </div>
-                <div class="venue">
-                   <i>Journal of <b>Engineering Applications of Artificial Intelligence</b></i>, 2024
-                </div>
-                <div class="tags">
-                  <a href="https://www.sciencedirect.com/science/article/pii/S0952197624001064?via%3Dihub">EAAI</a>     
-                  <a href="https://github.com/Boli-trainee/MHFAN/tree/main">Code</a>
-                </div>
-                <div align="justify" class="tldr-text">
-                  To solve the challenge that existing density maps lose cell location information in dense regions, a new exponential distance transform map is proposed, which can provide accurate cell location information with reasonable gradients.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td width="30%">
-                <img src="images/Lite-UNet.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="papers/Lite-UNet.pdf"><b>Lite-UNet: A lightweight and efficient network for cell localization</b></a>
-                </div>
-                <div class="authors">
-                    <strong>Bo Li</strong>, Yong Zhang, Yunhan Ren, Chengyang Zhang, and Baocai Yin
-                </div>
-                 <div class="venue">
-                   <i>Journal of <b>Engineering Applications of Artificial Intelligence</b></i>, 2024
-                </div>
-                <div class="tags">
-                  <a href="https://www.sciencedirect.com/science/article/pii/S0952197623018183">EAAI</a>
-                  <a href="https://github.com/Boli-trainee/MHFAN/blob/main/Networks/UNet/Lite-UNet.py">Code</a>
-                </div>
-                <div align="justify" class="tldr-text">
-                  A lightweight and efficient cell localization model called Lite-UNet is proposed for quickly and accurately localizing cells in images to further improve the efficiency of computer-aided medicine.
-                </div>
-              </td>
-            </tr>
 
             <tr>
               <td width="30%">
@@ -226,10 +216,10 @@
                   <a href="papers/HACC.pdf"><b>Hypergraph Association Weakly Supervised Crowd Counting</b></a>
                 </div>
                 <div class="authors">
-                    <strong>Bo Li</strong>, Yong Zhang, Chengyang Zhang, Xinglin Piao, and Baocai Yin
+                    Bo Li, Yong Zhang, <strong>Chengyang Zhang</strong>, Xinglin Piao, and Baocai Yin
                 </div>
                 <div class="venue">
-                   <i>Journal of <b>ACM Transactions on Multimedia Computing, Communications, and Applications</b></i>, 2023
+                   <i>ACM Transactions on <b>Multimedia Computing, Communications, and Applications</b></i>, 2023
                 </div>
                 <div class="tags">
                   <a href="https://dl.acm.org/doi/10.1145/3594670">TOMM</a>
@@ -240,28 +230,7 @@
               </td>
             </tr>  
 
-            <tr>
-              <td width="30%">
-                <img src="images/Review.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="papers/Review.pdf"><b>Approaches on crowd counting and density estimation: a review</b></a>
-                </div>
-                <div class="authors">
-                    <strong>Bo Li</strong>, Hongbo Huang, Ang Zhang, Peiwen Liu, and Cheng Liu 
-                </div>
-                <div class="venue">
-                   <i>Journal of <b>Pattern Analysis and Applications</b></i>, 2021
-                </div>
-                <div class="tags">
-                  <a href="https://link.springer.com/article/10.1007/s10044-021-00959-z">PAA</a>
-<!--                   <a href="https://github.com/Boli-trainee/HACC-Hypergraph-Crowd-Counting">Code</a> -->
-                </div>
-                <div align="justify" class="tldr-text">
-                   Nearly 150+ articles were reviewed and organized from a problem-solving perspective, and their network structure was statistically analyzed.
-              </td>
-            </tr>  
+             
           </table>
 
           <br>
