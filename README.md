@@ -1,3 +1,3 @@
-# Boli.github.io
+# Chengyang Zhang.github.io
 
-Bo Li's Academic Homepage: Boli-trainee.github.io
+Chengyang Zhang's Academic Homepage: [https://chyazhang.github.io/](https://chyazhang.github.io/)
